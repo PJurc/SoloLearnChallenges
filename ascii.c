@@ -4,8 +4,8 @@
 /*  "ASCII Converter"
 Write a program, which takes a text as input
 and converts it to ASCII decimal numbers.
-Challenge by Shudarshan Rai.
-*/
+Challenge by Shudarshan Rai. */
+
 int main (void)
 {
 char s[100];
