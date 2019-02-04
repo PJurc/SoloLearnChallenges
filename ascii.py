@@ -1,13 +1,9 @@
-def ascii(s):
-    """
-    Converts a string to
-    ASCII values
-    """
-    sa = " " #a new string to store ASCII
-    for i in range(len(s)):
-        sa += str(ord(s[i])) + " " #convert text to ASCII, convert that to string, add a space and add the result to sa
-    return sa #return the new string
+#   "ASCII Converter"
+# Write a program, which takes a text as input
+# and converts it to ASCII decimal numbers.
+# Challenge by Shudarshan Rai.
 
-s = input("Enter text to be converted: ") #input
-sa = ascii(s) #assign sa to the function's returned value
-print(sa) #print the ASCII string
+s = input("Enter text to be converted: ")
+
+for i in range(len(s)): #iterate through string 's'.
+    print((int(ord(s[i]))), end=" ") #convert to unicode string, then to int, separate by spaces.
